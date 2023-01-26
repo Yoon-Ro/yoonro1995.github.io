@@ -8,7 +8,7 @@ import Strip from './Strip.jsx';
 
 const Hero = () => {
   return (
-    <div className='max-w-[1240px]  mx-auto'>
+    <div className='max-w-[1240px]  mx-auto' >
         <div className='max-h-[600px] relative '>
             {/* OVERLAY */}
             <div className='rounded-xl absolute w-full h-full text-gray-200 max-h-[600px] bg-black/80 flex flex-col justify-center'>
