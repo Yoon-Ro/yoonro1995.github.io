@@ -1,0 +1,66 @@
+{
+  "URL": "https://www.greenimagetech.com/shop/strip-lights/led-neon/gs-neos-0612/",
+  "product_info": [
+    {
+      "product_title": "GS-NeoS-0612",
+      "product_category": "LED Neon",
+      "product_details_list": [
+        "LED Neon Strip Light",
+        "Sideview and plain shaped strip light",
+        "IP 67 rated for wet location",
+        "Maximum 20 meters with one driver",
+        "RGB feature requires RGB decoder and controller"
+      ]
+    }
+  ],
+  "specifications": [
+    {
+      "Model": "GS-NeoS-0612-7",
+      "Lumen Output": "70 lm/W",
+      "Power": "7.2 W/M",
+      "Colour Temperature": "2700K, 3000K, 3500K, 4000K, 5000K",
+      "Input Voltage": "24V DC",
+      "CRI": "Ra 80",
+      "IP Rating": "67",
+      "Minimum Cuttable": "50 mm",
+      "IP": "IP67",
+      "Max Run / One Driver": "20 M",
+      "Dimensions": "6 x 12 mm",
+      "Working Temperature": "-20°C ~ 50°C",
+      "Certification": "cULus, RoHS, CE",
+      "Warranty": "5 Years"
+    },
+    {
+      "Model": "GS-NeoS-0612-9",
+      "Lumen Output": "70 lm/W",
+      "Power": "9.6 W/M",
+      "Colour Temperature": "2700K, 3000K, 3500K, 4000K, 5000K, RGB",
+      "Input Voltage": "24V DC",
+      "CRI": "Ra 80",
+      "IP Rating": "67",
+      "Minimum Cuttable": "50 mm",
+      "IP": "IP67",
+      "Max Run / One Driver": "20 M",
+      "Dimensions": "6 x 12 mm",
+      "Working Temperature": "-20°C ~ 50°C",
+      "Certification": "cULus, RoHS, CE",
+      "Warranty": "5 Years"
+    },
+    {
+      "Model": "GS-NeoS-0612-14",
+      "Lumen Output": "70 lm/W",
+      "Power": "14.4 W/M",
+      "Colour Temperature": "2700K, 3000K, 3500K, 4000K, 5000K",
+      "Input Voltage": "24V DC",
+      "CRI": "Ra 80",
+      "IP Rating": "67",
+      "Minimum Cuttable": "50 mm",
+      "IP": "IP67",
+      "Max Run / One Driver": "20 M",
+      "Dimensions": "6 x 12 mm",
+      "Working Temperature": "-20°C ~ 50°C",
+      "Certification": "cULus, RoHS, CE",
+      "Warranty": "5 Years"
+    }
+  ]
+}

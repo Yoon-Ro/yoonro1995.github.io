@@ -1,0 +1,31 @@
+{
+  "URL": "https://www.greenimagetech.com/shop/indoor-lighting/led-puck-lights/gp-20877/",
+
+  "product_info": [
+    {
+        "id": 1,
+      "product_title": "GP-20877",
+      "product_category": "LED Puck Lights",
+      "product_details_list": [
+        "Perfect lighting application for product display",
+        "Aluminum profile",
+        "Ultra-thin – 4mm",
+        "Silver grey finish"
+      ]
+    }
+  ],
+
+  "specifications": [
+    {
+        "id": 2,
+      "Model": "GP-20877",
+      "Wattage": "5W",
+      "LuminousFlux": "320 – 360 lm",
+      "ColourTemperature": "3000K, 3500K, 4000K",
+      "Voltage": "12V DC",
+      "CRI": ">80",
+      "Certification": "cETLus, CE , RoHS",
+      "Warranty": "5 Years"
+    }
+  ]
+}
