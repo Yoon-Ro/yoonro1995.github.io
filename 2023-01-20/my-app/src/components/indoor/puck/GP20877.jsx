@@ -4,7 +4,7 @@ import dummy from '../../../data/GIT_product_data_json/indoor-lighting/led-puck-
 
 export const GP20877 = () => {
   return (
-    <div  className='grid md:grid-cols-3 gap-4 py-16 bg-slate-50/10 md:px-16 px-4 rounded-xl my-8'>
+    <div  className='grid md:grid-cols-3 gap-4 py-16 bg-slate-50/10 md:px-16 px-4 rounded-xl h-[100%]'>
         {dummy.product_info.map((id) => (
             <div key={id}>
             <img className='bg-white rounded-xl col-span-1 w-[80%]' src='https://www.greenimagetech.com/wp-content/uploads/2019/12/GP-20877-HD.png' alt='/'/>

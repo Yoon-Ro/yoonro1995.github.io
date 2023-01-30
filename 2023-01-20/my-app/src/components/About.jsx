@@ -8,13 +8,13 @@ const About = () => {
 
   return (
 
-    <div className='h-screen relative max-w-[1240px]  mx-auto bg-[#5dda4d]/40 rounded-xl' id='about'>
+    <div className='h-screen relative max-w-screen  mx-auto bg-[#5dda4d]/40 rounded-xl' id='about'>
             {/* OVERLAY */}
             <div className='rounded-xl absolute w-full text-gray-200 h-screen bg-black/80 flex flex-col justify-center items-center'>
     <div className='w-full h-screen mx-auto flex flex-col justify-center items-center px-16'>
 
               <div className=' justify-center items-center mx-auto'>
-                  <p className='md:text-4xl sm:text-2xl text-xl font-bold text-center w-[86%] mx-auto'><span className='bg-[#5dda4d] rounded-full px-2 py-1 font-black italic text-black'>Green Image Tech</span> is a LED lighting company
+                  <p className='md:text-4xl sm:text-2xl text-xl font-bold text-center w-4/6 mx-auto'><span className='bg-[#5dda4d] rounded-full px-2 py-1 font-black italic text-black'>Green Image Tech</span> is a LED lighting company
 based on the fundamentals of the 3E concept:
 energy, ecology and economy.</p>
 <div className='grid md:grid-cols-2 w-[86%] mx-auto pt-8 gap-8 italic'>
@@ -42,8 +42,8 @@ best solution for you.        </p>
             <button onClick={() => navigate(-1)} className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8' >
       <span className='px-4 font-bold text-[#5dda4d]/60  text-md '>BACK</span>
       </button>
-      <button onClick={() => navigate(1)} className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8' >
-      <span className='px-4 font-bold text-[#5dda4d]/60  text-md '>NEXT</span>
+      <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8' >
+      <span className='px-4 font-bold text-[#5dda4d]/60  text-md '><Link to="../index">NEXT</Link></span>
       </button>
       {/* <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8'>
       <span className='px-4 font-bold text-[#5dda4d]/60 text-md '><a href='/index'>NEXT</a></span>

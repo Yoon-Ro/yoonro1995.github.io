@@ -15,6 +15,9 @@ import Strip from './components/Strip.jsx';
 import {Routes, Route} from 'react-router-dom';
 import About from './components/About.jsx';
 import Index from './components/Index.jsx';
+import IndoorMain from './components/IndoorMain.jsx';
+import PuckLight from './components/PuckLight.jsx';
+
 
 
 
@@ -25,6 +28,9 @@ function App() {
   <Route path='/' element={<Hero/>}/>
   <Route path='/about' element={<About/>}/>
   <Route path='/index' element={<Index/>}/>
+  <Route path='/indoormain' element={<IndoorMain/>}/>
+  <Route path='/pucklight' element={<PuckLight/>}/>
+
 </Routes>
 
 

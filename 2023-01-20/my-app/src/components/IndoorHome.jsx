@@ -1,9 +1,12 @@
 import React from 'react'
 import PuckLight from './PuckLight.jsx';
+import {Link, withRouter, useNavigate } from 'react-router-dom';
+
 
 export const Indoor = () => {
   return (
-    <div>
+    
+    <div id="indoor">
     <div className='max-w-[1240px] group mx-auto  px-16 bg-[#165a1e] text-white  py-16 sm:rounded-xl'>
     <div className='grid md:grid-cols-3 gap-16'>
         <div className=' col-span-1'>
@@ -23,14 +26,7 @@ export const Indoor = () => {
           <li className='border-b py-2'>Luminaires</li>
         </ul>
 
-        <ul className='py-2 text-xl w-[80%] col-span-1'>
 
-          <li className='border-b py-2'>Grow Light</li>
-          <li className='border-b py-2'>Scones</li>
-          <li className='border-b py-2'>Dock Light</li>
-          <li className='border-b py-2'>T-Bar</li>
-          <li className='border-b py-2'>Track Light</li>
-        </ul>
 
     </div>
 
