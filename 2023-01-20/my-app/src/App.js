@@ -13,28 +13,22 @@ import Profile from './components/Profile.jsx';
 import Strip from './components/Strip.jsx';
 
 import {Routes, Route} from 'react-router-dom';
+import About from './components/About.jsx';
+import Index from './components/Index.jsx';
+
 
 
 function App() {
   return (
     <div className="bg-black">
-        <Navbar/>
 <Routes>
-  <Route path='/' element={<Hero/>}>
-    
-  </Route>
-  
-  <Route path='/indoor' element={<IndoorHome/>}/>
-  <Route path='/outdoor' element={<OutdoorHome/>}/>
-  <Route path='/profile' element={<Profile/>}/>
-  <Route path='/strip' element={<Strip/>}/>
-
-
-
+  <Route path='/' element={<Hero/>}/>
+  <Route path='/about' element={<About/>}/>
+  <Route path='/index' element={<Index/>}/>
 </Routes>
 
-        <CTA/>
-        <Productindex/>
+
+
     </div>
   );
 }
