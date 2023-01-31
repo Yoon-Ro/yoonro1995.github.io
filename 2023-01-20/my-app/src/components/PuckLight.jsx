@@ -13,61 +13,50 @@ export const PuckLight = () => {
 
   return (
 
-
-    <div className='h-screen relative max-w-screen  mx-auto bg-[#5dda4d]/40 rounded-xl' id='indoormain'>
+    <div className='h-screen relative max-w-screen  mx-auto bg-black/40 rounded-xl' id='indoormain'>
             {/* OVERLAY */}
-            <div className='rounded-xl absolute w-full text-gray-200 h-screen bg-black/80 flex flex-col'>
-    <div className='w-full h-screen mx-auto flex flex-col justify-center items-center px-16'>
 
-        
+    <div className='w-fill h-screen mx-auto flex flex-col justify-center items-center px-16'>
 
-        <div className='grid md:grid-cols-3 justify-center items-center'>
+        <div className='justify-center mx-auto'>
 
-        <div className='col-span-1 bg-[#5dda4d]/40 p-8 rounded-3xl m-2'>
-        <h1 className='text-4xl mb-8 font-bold uppercase'>Puck Light</h1>
-        <p>
-        If you're unsure of what a fair price is for a used iPhone, Newton Index can help guide you with our pricing tool. When you're looking to purchase a used iPhone or sell your own, our pricing tool can help you navigate the market and find the best deal.
+        <div className='grid md:grid-cols-4 gap-4 h-[80vh]'>
+
+        <div className='col-span-1 bg-[#5dda4d]/40 p-8 rounded-3xl text-white'>
+        <h1 className='text-4xl mb-4 font-bold uppercase'>Puck Light</h1>
+        <p className='text-sm'>
+        Puck lights are a versatile lighting solution. They can create scallops, spots, or pools of lighting instead of distributed illumination across the lighting surface. High performance and easy on the eye, puck lights are a popular choice for under-cabinet lighting and kitchen applications.
         </p>
-        <ul className='text-lg mt-4'>
-          <li className='border-b py-2'> <a href="#pucklight">Puck Light</a></li>
-          <li className='border-b py-2'>Downlight</li>
-          <li className='border-b py-2'>Decorative Light</li>
-          <li className='border-b py-2'>High/Low Bay</li>
-      
+        <ul className='text-md mt-4'>
+          <li className='px-4 border-b py-2 border-white/50'>GP-370</li>
+          <li className='px-4 py-2 border-white/50'>GP-20877</li>
+          <li className='px-4 py-2 bg-[#5dda4d] rounded-full text-black italic font-bold'>GP-20878</li>
+          <li className='px-4 py-2'>GP-20879</li>
+  
         </ul>
         </div>
-
-        <div className='col-span-2'>
-          <GP20877/>
+        <div className='col-span-3'>
+        <GP20878 />        
         </div>
 
- 
-
-    </div>
-
+        </div>
+        </div>
 
 
-      
-            <div className='flex flex-row gap-4 absolute bottom-0'>
-            <button onClick={() => navigate(-1)} className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl md:mb-8 mb-2' >
+
+{/* BUTTON */}
+        <div className='flex flex-row gap-4 absolute bottom-0 mx-auto'>
+            <button onClick={() => navigate(-1)} className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl md:mb-4 mb-2' >
       <span className='px-4 font-bold text-[#5dda4d]/60  text-md '>BACK</span>
       </button>
-      <button  className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl md:mb-8 mb-2' >
+      <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl md:mb-4 mb-2' >
       <span className='px-4 font-bold text-[#5dda4d]/60  text-md '><Link to="../PuckLight">NEXT</Link></span>
       </button>
-      {/* <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8'>
-      <span className='px-4 font-bold text-[#5dda4d]/60 text-md '><a href='/index'>NEXT</a></span>
-      </button> */}
+
       </div>
 
-      
-
-            </div>
-
-
-
-    </div>
-    </div>
+        </div>
+        </div>
   
   )
 }

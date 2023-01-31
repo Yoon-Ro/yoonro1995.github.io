@@ -25,9 +25,11 @@ Click the button below to browse our new product catalogue.              </p>
 
             </div>
             <div>
-            <button className='bg-[#5dda4d] text-Black flex w-[160px] items-center justify-center py-2 rounded-xl mb-8'>
-      <span className='px-4 font-bold text-black text-md '><Link to="about">BROWSE</Link></span>
+              <Link to="about">
+            <button className='bg-[#5dda4d] text-Black flex w-[160px] items-center justify-center py-2 rounded-xl mb-4'>
+      <span className='px-4 font-bold text-black text-md '>BROWSE</span>
       </button>
+      </Link>
       </div>
       
 

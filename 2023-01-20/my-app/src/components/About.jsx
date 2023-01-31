@@ -39,10 +39,10 @@ best solution for you.        </p>
 
             </div>
             <div className='flex flex-row gap-4'>
-            <button onClick={() => navigate(-1)} className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8' >
+            <button onClick={() => navigate(-1)} className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-4' >
       <span className='px-4 font-bold text-[#5dda4d]/60  text-md '>BACK</span>
       </button>
-      <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8' >
+      <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-4' >
       <span className='px-4 font-bold text-[#5dda4d]/60  text-md '><Link to="../index">NEXT</Link></span>
       </button>
       {/* <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8'>
