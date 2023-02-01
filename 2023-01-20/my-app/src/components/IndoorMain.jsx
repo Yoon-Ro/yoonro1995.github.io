@@ -13,34 +13,34 @@ export const Indoor = () => {
     <div className='h-screen relative max-w-screen  mx-auto bg-black/40 rounded-xl' id='indoormain'>
             {/* OVERLAY */}
 
-    <div className='w-fill h-screen mx-auto flex flex-col justify-center items-center px-16'>
+    <div className='h-screen mx-auto flex flex-col justify-center items-center'>
 
-        <div className='justify-center mx-auto'>
+        <div className='justify-center mx-auto max-w-[1024px]'>
 
-        <div className='grid md:grid-cols-3  gap-4'>
+        <div className='grid grid-cols-3  gap-4  mx-auto '>
 
         <div className='col-span-1 bg-[#5dda4d]/40 p-8 rounded-3xl  text-white h-[80vh]'>
-        <h1 className='text-4xl mb-8 font-bold uppercase'>Indoor Lighting</h1>
-        <p className='bg-black/20 p-4 mx-[-8px] rounded-2xl'>
-        If you're unsure of what a fair price is for a used iPhone, Newton Index can help guide you with our pricing tool. When you're looking to purchase a used iPhone or sell your own, our pricing tool can help you navigate the market and find the best deal.
-        </p>
-        <div className='grid grid-cols-2'>
-        <ul className='text-sm mt-4 col-span-1 px-1'>
-          <li className='border-b py-2'>Puck Light</li>
-          <li className='border-b py-2'>Downlight</li>
-          <li className='border-b py-2'>Decorative Light</li>
-          <li className='border-b py-2'>High/Low Bay</li>
-          <li className='border-b py-2'>Panel Light</li>
-        </ul>
+        <h1 className='text-4xl mb-8 font-bold uppercase'>Indoor</h1>
+        <p className='bg-black/20 px-8 py-4 mx-[-16px] rounded-2xl'>
+Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita soluta enim culpa. Eum, omnis iste nulla, cum, ducimus voluptatem unde impedit officiis facilis possimus itaque in ad sit. Deleniti, necessitatibus!        </p>
+        <ul className='text-md mt-4 overflow-y-scroll scrollbar-hide md:h-[40%] lg:h-[60%] h-[30%] rounded-xl p-2'>
+          <li className='border-b py-2 border-white/50'>Puck Lights</li>
+          <li className='border-b py-2 border-white/50'>Downlights</li>
+          <li className='border-b py-2 border-white/50'>Decorative Lights</li>
+          <li className='border-b py-2 border-white/50'>High/Low Bay Fixtures</li>
+          <li className='border-b py-2 border-white/50'>Panel Lights</li>
+          <li className='border-b py-2 border-white/50'>T-Bar</li>
+          <li className='border-b py-2 border-white/50'>Track Lights</li>
+          <li className='border-b py-2 border-white/50'>Puck Lights</li>
+          <li className='border-b py-2 border-white/50'>Downlights</li>
+          <li className='border-b py-2 border-white/50'>Decorative Lights</li>
+          <li className='border-b py-2 border-white/50'>High/Low Bay Fixtures</li>
+          <li className='border-b py-2 border-white/50'>Panel Lights</li>
+          <li className='border-b py-2 border-white/50'>T-Bar</li>
+          <li className='py-2 border-white/50'>Track Lights</li>
 
-        <ul className='text-sm mt-4 col-span-1 px-1'>
-          <li className='border-b py-2'>Luminaire</li>
-          <li className='border-b py-2'>Grow Light</li>
-          <li className='border-b py-2'>Decorative Light</li>
-          <li className='border-b py-2'>High/Low Bay</li>
-          <li className='border-b py-2'>Panel Light</li>
+  
         </ul>
-        </div>
         </div>
 
         <div className='col-span-2'>

@@ -16,21 +16,18 @@ export const PuckLight = () => {
     <div className='h-screen relative max-w-screen  mx-auto bg-black/40 rounded-xl' id='indoormain'>
             {/* OVERLAY */}
 
-    <div className='w-fill h-screen mx-auto flex flex-col justify-center items-center px-16'>
+    <div className='w-fill h-screen mx-auto flex flex-col justify-center items-center max-w-[1024px]'>
 
         <div className='justify-center mx-auto'>
 
         <div className='grid md:grid-cols-4 gap-4 h-[80vh]'>
 
         <div className='col-span-1 bg-[#5dda4d]/40 p-8 rounded-3xl text-white'>
-        <h1 className='text-4xl mb-4 font-bold uppercase'>Puck Light</h1>
-        <p className='text-sm'>
-        Puck lights are a versatile lighting solution. They can create scallops, spots, or pools of lighting instead of distributed illumination across the lighting surface. High performance and easy on the eye, puck lights are a popular choice for under-cabinet lighting and kitchen applications.
-        </p>
+        <h1 className='text-2xl mb-4 font-bold uppercase'>Puck Light</h1>
         <ul className='text-md mt-4'>
-          <li className='px-4 border-b py-2 border-white/50'>GP-370</li>
-          <li className='px-4 py-2 border-white/50'>GP-20877</li>
-          <li className='px-4 py-2 bg-[#5dda4d] rounded-full text-black italic font-bold'>GP-20878</li>
+          <li className='px-4 py-2 '>GP-370</li>
+          <li className='px-4 py-2 '>GP-20877</li>
+          <li className='px-4 py-2 bg-[#5dda4d] rounded-full text-black font-bold'>GP-20878</li>
           <li className='px-4 py-2'>GP-20879</li>
   
         </ul>
@@ -50,7 +47,7 @@ export const PuckLight = () => {
       <span className='px-4 font-bold text-[#5dda4d]/60  text-md '>BACK</span>
       </button>
       <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl md:mb-4 mb-2' >
-      <span className='px-4 font-bold text-[#5dda4d]/60  text-md '><Link to="../PuckLight">NEXT</Link></span>
+      <span className='px-4 font-bold text-[#5dda4d]/60  text-md '><Link to="../PuckLight1">NEXT</Link></span>
       </button>
 
       </div>

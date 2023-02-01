@@ -17,6 +17,7 @@ import About from './components/About.jsx';
 import Index from './components/Index.jsx';
 import IndoorMain from './components/IndoorMain.jsx';
 import PuckLight from './components/PuckLight.jsx';
+import PuckLight1 from './components/PuckLight1.jsx';
 
 
 
@@ -30,6 +31,8 @@ function App() {
   <Route path='/index' element={<Index/>}/>
   <Route path='/indoormain' element={<IndoorMain/>}/>
   <Route path='/pucklight' element={<PuckLight/>}/>
+  <Route path='/pucklight1' element={<PuckLight1/>}/>
+
 
 </Routes>
 
