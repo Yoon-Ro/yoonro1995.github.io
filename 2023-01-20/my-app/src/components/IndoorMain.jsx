@@ -1,5 +1,4 @@
 import React from 'react'
-import PuckLight from './PuckLight.jsx';
 import {Link, withRouter, useNavigate } from 'react-router-dom';
 
 
@@ -10,14 +9,14 @@ export const Indoor = () => {
   return (
 
 
-    <div className='h-screen relative max-w-screen  mx-auto bg-black/40 rounded-xl' id='indoormain'>
+    <div className='h-screen relative max-w-screen  mx-auto bg-black/40 rounded-xl px-4' id='indoormain'>
             {/* OVERLAY */}
 
     <div className='h-screen mx-auto flex flex-col justify-center items-center'>
 
-        <div className='justify-center mx-auto max-w-[1024px]'>
+        <div className='justify-center mx-auto max-w-[1920px]'>
 
-        <div className='grid grid-cols-3  gap-4  mx-auto '>
+        <div className='grid grid-cols-4  gap-4  mx-auto '>
 
         <div className='col-span-1 bg-[#5dda4d]/40 p-8 rounded-3xl  text-white h-[80vh]'>
         <h1 className='text-4xl mb-8 font-bold uppercase'>Indoor</h1>
@@ -43,7 +42,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita soluta enim cu
         </ul>
         </div>
 
-        <div className='col-span-2'>
+        <div className='col-span-3'>
         <div className='grid grid-cols-2 grid-rows-6 h-[80vh] gap-4'>
             <img className='row-span-3 object-cover  w-full h-full rounded-3xl'
             src="https://images.unsplash.com/photo-1490938591846-d23d23fef9f6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1501&q=80" alt='/'>
@@ -71,7 +70,7 @@ Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita soluta enim cu
       <span className='px-4 font-bold text-[#5dda4d]/60  text-md '>BACK</span>
       </button>
       <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl md:mb-4 mb-2' >
-      <span className='px-4 font-bold text-[#5dda4d]/60  text-md '><Link to="../PuckLight">NEXT</Link></span>
+      <span className='px-4 font-bold text-[#5dda4d]/60  text-md '><Link to="../GP_370">NEXT</Link></span>
       </button>
       {/* <button className='border border-[#5dda4d]/60  flex w-[160px] items-center justify-center py-2 rounded-xl mb-8'>
       <span className='px-4 font-bold text-[#5dda4d]/60 text-md '><a href='/index'>NEXT</a></span>

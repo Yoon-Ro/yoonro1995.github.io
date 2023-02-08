@@ -1,8 +1,5 @@
 import React from 'react'
-import GP20877 from './indoor/puck/GP20877.jsx';
-import GP20878 from './indoor/puck/GP20878.jsx';
-import GP20879 from './indoor/puck/GP20879.jsx';
-import GP370 from './indoor/puck/GP370.jsx';
+
 import {Link, withRouter, useNavigate } from 'react-router-dom';
 import {CgScrollV} from 'react-icons/cg';
 
@@ -19,7 +16,7 @@ export const Index = () => {
 
     <div className='h-screen mx-auto flex md:flex-col justify-center items-center '>
 
-        <div className='justify-center mx-auto w-[1024px]'>
+        <div className='justify-center mx-auto w-[1920px] px-4'>
 
         <div className='grid md:grid-cols-3 grid-rows-6 gap-4 h-[80vh]'>
 

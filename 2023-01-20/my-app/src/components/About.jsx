@@ -14,10 +14,10 @@ const About = () => {
     <div className='w-full h-screen mx-auto flex flex-col justify-center items-center px-16'>
 
               <div className=' justify-center items-center mx-auto'>
-                  <p className='md:text-4xl sm:text-2xl text-xl font-bold text-center w-4/6 mx-auto'><span className='bg-[#5dda4d] rounded-full px-2 py-1 font-black italic text-black'>Green Image Tech</span> is a LED lighting company
+                  <p className='md:text-4xl sm:text-2xl text-xl font-bold text-center w-4/6 mx-auto md:leading-relaxed'><span className='bg-[#5dda4d] rounded-full px-2 py-1 font-black italic text-black'>Green Image Tech</span> is a LED lighting company
 based on the fundamentals of the 3E concept:
 energy, ecology and economy.</p>
-<div className='grid md:grid-cols-2 w-[86%] mx-auto pt-8 gap-8 italic'>
+<div className='grid md:grid-cols-2 w-[70%] mx-auto pt-8 gap-8 italic'>
 <p className='md:text-1xl text-sm uppercase font-bold text-white/60 col-span-1'>
 We have been
 and continue to be involved in large-scale

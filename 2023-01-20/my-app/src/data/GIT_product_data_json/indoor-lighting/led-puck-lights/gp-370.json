@@ -1,0 +1,34 @@
+{
+  "URL": "https://www.greenimagetech.com/shop/indoor-lighting/led-puck-lights/gp-370/",
+  "product_info": [
+    {
+      "product_title": "GP-370",
+      "product_category": "LED Puck Lights",
+      "product_details_list": [
+        "Low profile, spring clip recessed or surface mount puck light",
+        "Brushed nickel housing",
+        "The lifespan of over 50,000 hours",
+        "No mercury, phosphorus or toxic substances",
+        "No hum or flicker effect",
+        "Easily connect up to 6 units",
+        "Frosted Lens"
+      ]
+    }
+  ],
+  "specifications": [
+    {
+      "Model": "GP-370",
+      "Lumen Output": "160 lm",
+      "Power Consumption (W)": "3 W",
+      "Efficacy": "100 lm/W",
+      "Input Voltage": "12V DC",
+      "Colour Tempeature (CCT)": "3000K, 3500K, 4000K",
+      "CRI": "Ra80",
+      "PFC": "0.95",
+      "Beam Angle": "30°, 45°",
+      "IP Rating": "IP20",
+      "Certification": "cULus, RoHS, CE",
+      "Warranty": "5 Years"
+    }
+  ]
+}
